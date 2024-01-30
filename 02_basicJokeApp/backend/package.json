@@ -1,13 +1,14 @@
 {
-  "name": "01_simplebackedn",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "simple backend",
-  "main": "index.js",
+  "description": "a simple joke serving backend",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "keywords": [
-    "simple-backend"
+    "joke-backend"
   ],
   "author": "codebreakdown",
   "license": "ISC",
